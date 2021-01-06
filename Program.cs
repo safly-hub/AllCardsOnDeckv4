@@ -8,6 +8,7 @@ namespace AllCardsOnDeckv4
     {
         static void Main(string[] args)
         {
+            // Generating a Random number
             var randomNumberGenerator = new Random();
             var suits = new List<string>() { "Hearts", "Clubs", "Spades", "Diamonds" };
             var ranks = new List<string>() { "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King" };
